@@ -24,7 +24,6 @@ class Test(TestCase):
         buf2 = b"wokka wokka!!!"
         self.assertEqual(hamming(buf1, buf2), 37)
 
-
     def test_quadgram_score(self):
         b1 = b"ATTACK THE EAST WALL OF THE CASTLE AT DAWN"
         score1 = quadgram_score(b1)

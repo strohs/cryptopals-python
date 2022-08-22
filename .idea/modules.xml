@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/python-cryptopals.iml" filepath="$PROJECT_DIR$/python-cryptopals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cryptopals-python.iml" filepath="$PROJECT_DIR$/cryptopals-python.iml" />
     </modules>
   </component>
 </project>

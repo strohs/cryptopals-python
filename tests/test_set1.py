@@ -1,6 +1,4 @@
-from itertools import zip_longest, cycle, islice
 from unittest import TestCase
-
 from set1 import convert_hex_to_base64, fixed_xor_bytes, implement_repeating_key_xor, single_byte_xor_cipher
 
 
@@ -22,5 +20,5 @@ class Test(TestCase):
         self.assertEqual(decrypted, "Cooking MC's like a pound of bacon")
 
     def test_implement_repeating_key_xor(self):
-        encrypted = implement_repeating_key_xor();
+        encrypted = implement_repeating_key_xor()
         self.assertEqual(encrypted, "0b3637272a2b2e63622c2e69692a23693a2a3c6324202d623d63343c2a26226324272765272a282b2f20430a652e2c652a3124333a653e2b2027630c692b20283165286326302e27282f")
